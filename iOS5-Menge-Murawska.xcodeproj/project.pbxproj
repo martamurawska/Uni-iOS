@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB4034FE2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4034FD2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift */; };
+		DB4035002B44099F005EDC53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4034FF2B44099F005EDC53 /* ContentView.swift */; };
+		DB4035022B4409A0005EDC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4035012B4409A0005EDC53 /* Assets.xcassets */; };
+		DB4035052B4409A0005EDC53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4035042B4409A0005EDC53 /* Preview Assets.xcassets */; };
+		DB40350F2B4409A0005EDC53 /* iOS5_Menge_MurawskaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40350E2B4409A0005EDC53 /* iOS5_Menge_MurawskaTests.swift */; };
+		DB4035192B4409A0005EDC53 /* iOS5_Menge_MurawskaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4035182B4409A0005EDC53 /* iOS5_Menge_MurawskaUITests.swift */; };
+		DB40351B2B4409A0005EDC53 /* iOS5_Menge_MurawskaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40351A2B4409A0005EDC53 /* iOS5_Menge_MurawskaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB40350B2B4409A0005EDC53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4034F22B44099E005EDC53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4034F92B44099F005EDC53;
+			remoteInfo = "iOS5-Menge-Murawska";
+		};
+		DB4035152B4409A0005EDC53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4034F22B44099E005EDC53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4034F92B44099F005EDC53;
+			remoteInfo = "iOS5-Menge-Murawska";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB4034FA2B44099F005EDC53 /* iOS5-Menge-Murawska.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS5-Menge-Murawska.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4034FD2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Menge_MurawskaApp.swift; sourceTree = "<group>"; };
+		DB4034FF2B44099F005EDC53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB4035012B4409A0005EDC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB4035042B4409A0005EDC53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB40350A2B4409A0005EDC53 /* iOS5-Menge-MurawskaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS5-Menge-MurawskaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB40350E2B4409A0005EDC53 /* iOS5_Menge_MurawskaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Menge_MurawskaTests.swift; sourceTree = "<group>"; };
+		DB4035142B4409A0005EDC53 /* iOS5-Menge-MurawskaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS5-Menge-MurawskaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4035182B4409A0005EDC53 /* iOS5_Menge_MurawskaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Menge_MurawskaUITests.swift; sourceTree = "<group>"; };
+		DB40351A2B4409A0005EDC53 /* iOS5_Menge_MurawskaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Menge_MurawskaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4034F72B44099F005EDC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4035072B4409A0005EDC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4035112B4409A0005EDC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4034F12B44099E005EDC53 = {
+			isa = PBXGroup;
+			children = (
+				DB4034FC2B44099F005EDC53 /* iOS5-Menge-Murawska */,
+				DB40350D2B4409A0005EDC53 /* iOS5-Menge-MurawskaTests */,
+				DB4035172B4409A0005EDC53 /* iOS5-Menge-MurawskaUITests */,
+				DB4034FB2B44099F005EDC53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4034FB2B44099F005EDC53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4034FA2B44099F005EDC53 /* iOS5-Menge-Murawska.app */,
+				DB40350A2B4409A0005EDC53 /* iOS5-Menge-MurawskaTests.xctest */,
+				DB4035142B4409A0005EDC53 /* iOS5-Menge-MurawskaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4034FC2B44099F005EDC53 /* iOS5-Menge-Murawska */ = {
+			isa = PBXGroup;
+			children = (
+				DB4034FD2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift */,
+				DB4034FF2B44099F005EDC53 /* ContentView.swift */,
+				DB4035012B4409A0005EDC53 /* Assets.xcassets */,
+				DB4035032B4409A0005EDC53 /* Preview Content */,
+			);
+			path = "iOS5-Menge-Murawska";
+			sourceTree = "<group>";
+		};
+		DB4035032B4409A0005EDC53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB4035042B4409A0005EDC53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB40350D2B4409A0005EDC53 /* iOS5-Menge-MurawskaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB40350E2B4409A0005EDC53 /* iOS5_Menge_MurawskaTests.swift */,
+			);
+			path = "iOS5-Menge-MurawskaTests";
+			sourceTree = "<group>";
+		};
+		DB4035172B4409A0005EDC53 /* iOS5-Menge-MurawskaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB4035182B4409A0005EDC53 /* iOS5_Menge_MurawskaUITests.swift */,
+				DB40351A2B4409A0005EDC53 /* iOS5_Menge_MurawskaUITestsLaunchTests.swift */,
+			);
+			path = "iOS5-Menge-MurawskaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4034F92B44099F005EDC53 /* iOS5-Menge-Murawska */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB40351E2B4409A0005EDC53 /* Build configuration list for PBXNativeTarget "iOS5-Menge-Murawska" */;
+			buildPhases = (
+				DB4034F62B44099F005EDC53 /* Sources */,
+				DB4034F72B44099F005EDC53 /* Frameworks */,
+				DB4034F82B44099F005EDC53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS5-Menge-Murawska";
+			productName = "iOS5-Menge-Murawska";
+			productReference = DB4034FA2B44099F005EDC53 /* iOS5-Menge-Murawska.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB4035092B4409A0005EDC53 /* iOS5-Menge-MurawskaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4035212B4409A0005EDC53 /* Build configuration list for PBXNativeTarget "iOS5-Menge-MurawskaTests" */;
+			buildPhases = (
+				DB4035062B4409A0005EDC53 /* Sources */,
+				DB4035072B4409A0005EDC53 /* Frameworks */,
+				DB4035082B4409A0005EDC53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB40350C2B4409A0005EDC53 /* PBXTargetDependency */,
+			);
+			name = "iOS5-Menge-MurawskaTests";
+			productName = "iOS5-Menge-MurawskaTests";
+			productReference = DB40350A2B4409A0005EDC53 /* iOS5-Menge-MurawskaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB4035132B4409A0005EDC53 /* iOS5-Menge-MurawskaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4035242B4409A0005EDC53 /* Build configuration list for PBXNativeTarget "iOS5-Menge-MurawskaUITests" */;
+			buildPhases = (
+				DB4035102B4409A0005EDC53 /* Sources */,
+				DB4035112B4409A0005EDC53 /* Frameworks */,
+				DB4035122B4409A0005EDC53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4035162B4409A0005EDC53 /* PBXTargetDependency */,
+			);
+			name = "iOS5-Menge-MurawskaUITests";
+			productName = "iOS5-Menge-MurawskaUITests";
+			productReference = DB4035142B4409A0005EDC53 /* iOS5-Menge-MurawskaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4034F22B44099E005EDC53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DB4034F92B44099F005EDC53 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					DB4035092B4409A0005EDC53 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DB4034F92B44099F005EDC53;
+					};
+					DB4035132B4409A0005EDC53 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = DB4034F92B44099F005EDC53;
+					};
+				};
+			};
+			buildConfigurationList = DB4034F52B44099E005EDC53 /* Build configuration list for PBXProject "iOS5-Menge-Murawska" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB4034F12B44099E005EDC53;
+			productRefGroup = DB4034FB2B44099F005EDC53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4034F92B44099F005EDC53 /* iOS5-Menge-Murawska */,
+				DB4035092B4409A0005EDC53 /* iOS5-Menge-MurawskaTests */,
+				DB4035132B4409A0005EDC53 /* iOS5-Menge-MurawskaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4034F82B44099F005EDC53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4035052B4409A0005EDC53 /* Preview Assets.xcassets in Resources */,
+				DB4035022B4409A0005EDC53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4035082B4409A0005EDC53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4035122B4409A0005EDC53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4034F62B44099F005EDC53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4035002B44099F005EDC53 /* ContentView.swift in Sources */,
+				DB4034FE2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4035062B4409A0005EDC53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB40350F2B4409A0005EDC53 /* iOS5_Menge_MurawskaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4035102B4409A0005EDC53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB40351B2B4409A0005EDC53 /* iOS5_Menge_MurawskaUITestsLaunchTests.swift in Sources */,
+				DB4035192B4409A0005EDC53 /* iOS5_Menge_MurawskaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB40350C2B4409A0005EDC53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4034F92B44099F005EDC53 /* iOS5-Menge-Murawska */;
+			targetProxy = DB40350B2B4409A0005EDC53 /* PBXContainerItemProxy */;
+		};
+		DB4035162B4409A0005EDC53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4034F92B44099F005EDC53 /* iOS5-Menge-Murawska */;
+			targetProxy = DB4035152B4409A0005EDC53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB40351C2B4409A0005EDC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB40351D2B4409A0005EDC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB40351F2B4409A0005EDC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS5-Menge-Murawska/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mengemurawska.iOS5-Menge-Murawska";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB4035202B4409A0005EDC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS5-Menge-Murawska/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mengemurawska.iOS5-Menge-Murawska";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB4035222B4409A0005EDC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mengemurawska.iOS5-Menge-MurawskaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS5-Menge-Murawska.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS5-Menge-Murawska";
+			};
+			name = Debug;
+		};
+		DB4035232B4409A0005EDC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mengemurawska.iOS5-Menge-MurawskaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS5-Menge-Murawska.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS5-Menge-Murawska";
+			};
+			name = Release;
+		};
+		DB4035252B4409A0005EDC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mengemurawska.iOS5-Menge-MurawskaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS5-Menge-Murawska";
+			};
+			name = Debug;
+		};
+		DB4035262B4409A0005EDC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.mengemurawska.iOS5-Menge-MurawskaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS5-Menge-Murawska";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4034F52B44099E005EDC53 /* Build configuration list for PBXProject "iOS5-Menge-Murawska" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB40351C2B4409A0005EDC53 /* Debug */,
+				DB40351D2B4409A0005EDC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB40351E2B4409A0005EDC53 /* Build configuration list for PBXNativeTarget "iOS5-Menge-Murawska" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB40351F2B4409A0005EDC53 /* Debug */,
+				DB4035202B4409A0005EDC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4035212B4409A0005EDC53 /* Build configuration list for PBXNativeTarget "iOS5-Menge-MurawskaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4035222B4409A0005EDC53 /* Debug */,
+				DB4035232B4409A0005EDC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4035242B4409A0005EDC53 /* Build configuration list for PBXNativeTarget "iOS5-Menge-MurawskaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4035252B4409A0005EDC53 /* Debug */,
+				DB4035262B4409A0005EDC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB4034F22B44099E005EDC53 /* Project object */;
+}
