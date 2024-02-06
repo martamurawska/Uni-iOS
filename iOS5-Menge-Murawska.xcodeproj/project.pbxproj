@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB2A9CAD2B4972DF009F4E32 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A9CAC2B4972DF009F4E32 /* EditView.swift */; };
 		DB4034FE2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4034FD2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift */; };
-		DB4035002B44099F005EDC53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4034FF2B44099F005EDC53 /* ContentView.swift */; };
+		DB4035002B44099F005EDC53 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4034FF2B44099F005EDC53 /* MasterView.swift */; };
 		DB4035022B4409A0005EDC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4035012B4409A0005EDC53 /* Assets.xcassets */; };
 		DB4035052B4409A0005EDC53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4035042B4409A0005EDC53 /* Preview Assets.xcassets */; };
 		DB40350F2B4409A0005EDC53 /* iOS5_Menge_MurawskaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40350E2B4409A0005EDC53 /* iOS5_Menge_MurawskaTests.swift */; };
 		DB4035192B4409A0005EDC53 /* iOS5_Menge_MurawskaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4035182B4409A0005EDC53 /* iOS5_Menge_MurawskaUITests.swift */; };
 		DB40351B2B4409A0005EDC53 /* iOS5_Menge_MurawskaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40351A2B4409A0005EDC53 /* iOS5_Menge_MurawskaUITestsLaunchTests.swift */; };
+		DB4035282B440A34005EDC53 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4035272B440A34005EDC53 /* Model.swift */; };
+		DB40352A2B440A51005EDC53 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4035292B440A51005EDC53 /* ViewModel.swift */; };
+		DB40352C2B4415F3005EDC53 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40352B2B4415F3005EDC53 /* CardView.swift */; };
+		DB8D3D242B46E2CE00A02291 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D3D232B46E2CE00A02291 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB2A9CAC2B4972DF009F4E32 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		DB4034FA2B44099F005EDC53 /* iOS5-Menge-Murawska.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS5-Menge-Murawska.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4034FD2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Menge_MurawskaApp.swift; sourceTree = "<group>"; };
-		DB4034FF2B44099F005EDC53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB4034FF2B44099F005EDC53 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
 		DB4035012B4409A0005EDC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4035042B4409A0005EDC53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB40350A2B4409A0005EDC53 /* iOS5-Menge-MurawskaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS5-Menge-MurawskaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,10 @@
 		DB4035142B4409A0005EDC53 /* iOS5-Menge-MurawskaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS5-Menge-MurawskaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4035182B4409A0005EDC53 /* iOS5_Menge_MurawskaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Menge_MurawskaUITests.swift; sourceTree = "<group>"; };
 		DB40351A2B4409A0005EDC53 /* iOS5_Menge_MurawskaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Menge_MurawskaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB4035272B440A34005EDC53 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DB4035292B440A51005EDC53 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DB40352B2B4415F3005EDC53 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DB8D3D232B46E2CE00A02291 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,13 @@
 		DB4034FC2B44099F005EDC53 /* iOS5-Menge-Murawska */ = {
 			isa = PBXGroup;
 			children = (
+				DB2A9CAC2B4972DF009F4E32 /* EditView.swift */,
+				DB8D3D232B46E2CE00A02291 /* AddView.swift */,
+				DB40352B2B4415F3005EDC53 /* CardView.swift */,
+				DB4035292B440A51005EDC53 /* ViewModel.swift */,
+				DB4035272B440A34005EDC53 /* Model.swift */,
 				DB4034FD2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift */,
-				DB4034FF2B44099F005EDC53 /* ContentView.swift */,
+				DB4034FF2B44099F005EDC53 /* MasterView.swift */,
 				DB4035012B4409A0005EDC53 /* Assets.xcassets */,
 				DB4035032B4409A0005EDC53 /* Preview Content */,
 			);
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4035002B44099F005EDC53 /* ContentView.swift in Sources */,
+				DB4035282B440A34005EDC53 /* Model.swift in Sources */,
+				DB4035002B44099F005EDC53 /* MasterView.swift in Sources */,
+				DB8D3D242B46E2CE00A02291 /* AddView.swift in Sources */,
+				DB40352A2B440A51005EDC53 /* ViewModel.swift in Sources */,
+				DB2A9CAD2B4972DF009F4E32 /* EditView.swift in Sources */,
 				DB4034FE2B44099F005EDC53 /* iOS5_Menge_MurawskaApp.swift in Sources */,
+				DB40352C2B4415F3005EDC53 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

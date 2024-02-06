@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct iOS5_Menge_MurawskaApp: App {
+    @Environment(\.scenePhase) private var scenePhase
+    var viewModel = ViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MasterView(viewModel: viewModel)
+                .environmentObject(viewModel)
+                .onChange(of: scenePhase) { phase in
+                    if phase == .inactive {
+                        viewModel.saveModel()
+                    }
+                }
         }
     }
 }
